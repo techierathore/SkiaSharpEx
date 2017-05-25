@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
+﻿
 using Xamarin.Forms;
 
 namespace SkiaSharpEx
@@ -13,7 +9,11 @@ namespace SkiaSharpEx
         {
             InitializeComponent();
 
-            MainPage = new SkiaSharpEx.MainPage();
+            MainPage = new NavigationPage( new SkiaSharpEx.MainPage())
+            {
+                BarTextColor = Color.White,
+                BarBackgroundColor = Color.FromHex("#F2C500")
+            };
         }
 
         protected override void OnStart()
