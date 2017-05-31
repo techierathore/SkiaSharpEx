@@ -144,7 +144,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SkiaSharpEx\SkiaSharpEx.csproj">
-      <Project>{dea723bc-7ea1-4131-9ae9-ce07e0917bf6}</Project>
+      <Project>{C1AB1C88-4F38-4A83-8820-EB1F88D2A197}</Project>
       <Name>SkiaSharpEx</Name>
     </ProjectReference>
   </ItemGroup>

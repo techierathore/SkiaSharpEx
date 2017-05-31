@@ -35,7 +35,8 @@
     <WarningLevel>4</WarningLevel>
     <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
     <AndroidLinkMode>None</AndroidLinkMode>
-    <AndroidSupportedAbis>armeabi,armeabi-v7a,x86</AndroidSupportedAbis>
+    <AndroidSupportedAbis>x86;x86_64</AndroidSupportedAbis>
+    <EmbedAssembliesIntoApk>false</EmbedAssembliesIntoApk>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -130,7 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SkiaSharpEx\SkiaSharpEx.csproj">
-      <Project>{dea723bc-7ea1-4131-9ae9-ce07e0917bf6}</Project>
+      <Project>{C1AB1C88-4F38-4A83-8820-EB1F88D2A197}</Project>
       <Name>SkiaSharpEx</Name>
     </ProjectReference>
   </ItemGroup>
